@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="mypic"><img src="https://lh3.googleusercontent.com/Is8_njgQfoFdhdVt7K8OfaiTqEZRiLBJ6utE91vyF67kbeQBgDb2H1EHTNESjaf9t0YEmUV_y9jMN36YvxrEMgzhlFJ0fGymA03oRYBobMfwHrVbIiIaeQyUHwGgsAJClcU2BA2zvQ=w2400">
+</div>
+<div class="paragraph">
+
+<p>I graduated from the University of Illinois at Champaign-Urbana with a B.S. in Chemistry. I started working as a lab analyst and found some inefficiencies in the work system I was trained in. I created a program to decrease these inefficiencies and streamline the work system. After showing this work to my boss, I was chosen to help in the development process of a new lab information management system. This opportunity was a great learning experience and helped me realize I wanted a career in computer science. </p>
+	<p>I recently graduated with a M.S. in Computer Science from DePaul University. Through my coursework at DePaul and outside personal projects I have become familiar with many different programming languages and development methodologies. I am ready and excited to begin my professional career! </p>
+</div>
+
+<style>
+p{
+	color:white;
+	font-size: large;
+	padding-left: 1em;
+	padding-right: 0.7em;
+	text-indent: 1em;
+	width:100%;
+	
+}
+img{
+	width:100%;
+	height:100%;
+	border-radius: 5px;
+	
+}
+.paragraph{
+	min-width:300px;
+	float: left;
+	width:60%;
+	margin-top: 15%;
+	margin-left: 10%;
+	background-color:rgba(0,0,0,0.7);
+	border-radius: 5px;
+	padding-top: 1em;
+}
+.mypic{
+	min-width:300px;
+	float: left;
+	width:30%;
+	margin-top:7%;
+}
+
+{% endblock %}

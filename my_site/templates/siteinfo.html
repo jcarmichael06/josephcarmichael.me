@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="outer">
+<p>
+This website was built using the flask framework for python and hosted using amazon web services. The flask app was uploaded to elastic beanstalk (where an EC2 instance was created) and route 53 was used to configure the domain name.
+</p>
+</div>
+
+<style>
+.outer{
+height:100%;
+width:100%;
+}
+
+p { 
+	font-size: large;
+	color:white;
+	width: 50%;
+	margin-top: 20%;
+	margin-left: 25%;
+background-color:rgba(0,0,0,0.7);
+	border-radius: 5px;
+text-align:center;
+min-width:300px;/* for good browsers*/
+}
+{% endblock %}
